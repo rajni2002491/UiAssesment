@@ -40,14 +40,14 @@ class FreightScreen extends StatelessWidget {
             children: [
               // Header Row
               Container(
-                width: 800,
-                padding: EdgeInsets.all(20),
+                width: 1500,
+                padding: EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: const Color.fromARGB(255, 249, 249, 249),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Row(
-                  mainAxisSize: MainAxisSize.min,
+                  mainAxisSize: MainAxisSize.max,
                   children: [
                     Text("Search the best Freight Rates",
                         style: TextStyle(
